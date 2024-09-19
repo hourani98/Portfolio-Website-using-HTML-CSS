@@ -1,0 +1,262 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  scroll-behavior: smooth;
+}
+/*Navbar*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 55px 10px 55px;
+}
+
+.menu {
+  display: flex;
+}
+.menu li {
+  margin: 0 10px;
+  list-style-type: none;
+  transition: all 0.5s ease-in-out;
+}
+.menu li:hover{
+  background-color: orangered;
+  border-radius: 20px;
+  padding: 10px;
+  
+}
+.menu li a {
+  text-decoration: none;
+  color: white;
+}
+/*Navbar*/
+/*Home*/
+.home {
+  background-image: url("img/b.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+.home-content {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.home-content h1 {
+  font-size: 50px;
+  font-family: "Bigshot One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.home-content h3 {
+  font-size: 30px;
+}
+.home-content p {
+  margin-top: 10px;
+  line-height: 20px;
+}
+.active {
+  margin-top: 50px;
+  padding: 10px 20px 10px 20px;
+  background-color: orangered;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+/*Home*/
+/*About*/
+.all-about {
+  margin-top: 100px;
+  margin-left: 8%;
+  display: flex;
+  gap: 25px;
+}
+.about-content {
+  color: white;
+  position: relative;
+  top: 50px;
+}
+.img {
+  position: relative;
+  top: -40px;
+}
+.about-content h1 {
+  font-family: "Radio Canada Big", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+.about-content span {
+  color: orangered;
+}
+.about-content p {
+  margin-top: 50px;
+  line-height: 20px;
+}
+.btn {
+  margin-top: 60px;
+  background-color: orangered;
+  padding: 5px 15px 5px 15px;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+/*About*/
+/*SKILLS*/
+.skills {
+  height: 300px;
+  color: white;
+  padding-top: 50px;
+}
+.skills-content {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.skills-content span {
+  color: orangered;
+}
+.all-skills {
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  color: white;
+}
+.skills-line h3 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.d-box {
+  width: 500px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.d {
+  background-color: orangered;
+  height: 100%;
+}
+/*Skills*/
+/*Service*/
+.service {
+  color: white;
+  height: 500px;
+  padding-top: 50px;
+}
+.content-service {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.content-service span {
+  color: orangered;
+}
+.col {
+  display: flex;
+  gap: 20px;
+
+  margin-top: 30px;
+  position: absolute;
+  left: 15%;
+}
+.col-1 {
+  text-align: center;
+  padding: 20px;
+  transition: all 0.5 s ease-in-out;
+}
+.col-1:hover {
+  background-color: orangered;
+  border-radius: 15px;
+  color: black;
+}
+
+.col-1 i {
+  background-color: orangered;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.col-1 p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.col-1 button {
+  background-color: orangered;
+  padding: 5px 12px 5px 12px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+/*Service*/
+/*contact*/
+.contact {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 500px;
+}
+.content-contact {
+  margin-bottom: 150px;
+}
+.content-contact span {
+  color: orangered;
+}
+.form p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.form input {
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.542);
+}
+.but-1 {
+  margin-top: 30px;
+  width: 50%;
+  background-color: orangered;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+/* Content*/
+/*footer*/
+footer {
+  color: white;
+  text-align: center;
+  margin-top: 500px;
+  margin-bottom: 20px;
+}
+.footer-content p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.fa-brands {
+  margin-right: 8px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.fa-brands:hover {
+  color: orangered;
+}
+/*Fotten*/
